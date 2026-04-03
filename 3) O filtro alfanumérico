@@ -1,0 +1,13 @@
+3) O Filtro de Login Alfanumérico:
+
+Crie uma lista de sugestões de logins.
+Use a varredura para mostrar na tela apenas os que são isalnum() (letras e números), descartando os que
+têm símbolos como @ ou !.
+
+
+RESOLUÇÃO:
+
+sugestoes = [antonio58, pedro@25, fernando!10, miguel85, alonso91]
+  for nome in sugestoes :
+    if nome.isalnum() :
+      print(nome)
