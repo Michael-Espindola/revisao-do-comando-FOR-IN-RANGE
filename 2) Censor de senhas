@@ -1,0 +1,11 @@
+2) O Censor de Senhas:
+Peça uma senha ao usuário. Use o for para varrer cada letra da senha e, para cada letra que ele encontrar, 
+o programa deve imprimir um * (asterisco). No final, veremos o tamanho da senha em estrelinhas.
+
+RESOLUÇÃO:
+
+senha = input ("digite uma senha: ")
+
+    for caractere in senha :
+
+        print("x"  , end = " ")
