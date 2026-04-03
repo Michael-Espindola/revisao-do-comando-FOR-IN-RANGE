@@ -1,0 +1,11 @@
+9) O Localizador de "Murphy":
+
+Crie uma lista de nomes de robôs. Use o for para varrer a lista. Se a subvariável encontrar o nome "Murphy",
+o programa deve parar e dizer: "Oi, Michael! Eu estou aqui!".
+
+RESOLUÇÃO: 
+
+nome = ["zek", "murphy", "delta"]
+  for robo in nome :
+    if robo == "murphy" :
+      print("Oi, Michael. Eu Murphy, estou aqui")
