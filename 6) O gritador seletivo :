@@ -1,0 +1,13 @@
+6) O Gritador Seletivo:
+
+Tenha uma lista de palavras. Use a varredura para transformar em upper() apenas
+as palavras que têm mais de 5 letras (len > 5). As pequenas ficam como estão.
+
+RESOLUÇÃO: 
+
+palavras = ["pao", "queijo", "caminhão", "baú", "carro", "carreta"]
+  for item in palavras :
+    if len(item) > 5 :
+      print(item.upper())
+  else:
+      print(item)
