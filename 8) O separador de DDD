@@ -1,0 +1,10 @@
+8) O Separador de DDD:
+
+Crie uma lista com 3 números de telefone (com 11 dígitos cada).
+Use a varredura e o fatiamento [:2] para mostrar apenas o DDD de cada telefone da lista.
+
+RESOLUÇÃO:
+
+lista = [81 9999-0000, 84 99422-3245, 48 99974-1234]
+  for numero in lista :
+    print(numero [ : 2] )
