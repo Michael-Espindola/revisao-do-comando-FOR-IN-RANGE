@@ -1,0 +1,7 @@
+7) A Contagem Regressiva de Lançamento:
+
+Crie uma varredura usando range() que comece no 10 e vá até o 1, diminuindo de 1 em 1. No final, fora do for, imprima "FOGO!".
+
+for segundos in range (10 ,0 , -1) :
+  print(segundos)
+print("FOGO!")
