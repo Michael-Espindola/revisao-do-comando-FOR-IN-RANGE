@@ -1,0 +1,10 @@
+10) O Padronizador de E-mails:
+
+Receba uma lista de e-mails digitados de qualquer jeito (com letras grandes e pequenas). 
+Use a varredura para transformar todos em lower() e mostre a lista organizada.
+
+RESOLUÇÃO: 
+
+emails = ["Pedro.Antonio@gmail.com", "felipe.Fonseca@gmail.com", "miguel.Sales@gmil.com"]
+  for nome in emails :
+    print(nome.lower())
