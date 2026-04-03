@@ -1,0 +1,13 @@
+O Verificador de Nomes Reais:
+Crie uma lista com 5 nomes (alguns com números no meio, como "Micha3l"). 
+Use o for para varrer a lista e o isalpha() para dizer se o nome é "Válido" ou "Inválido".
+
+RESOLUÇÃO: 
+
+nomes = ["afonso","pedro","micha31","antonio","matheus"]
+
+for item in nomes:
+
+if item.isalpha()
+
+print(f"{item} : nome válido")
