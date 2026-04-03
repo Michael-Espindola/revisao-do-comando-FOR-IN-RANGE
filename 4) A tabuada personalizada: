@@ -1,0 +1,10 @@
+4) A Tabuada Personalizada:
+
+Peça um número ao usuário e use o range() para criar uma varredura que mostre a tabuada desse número do 1 ao 10.
+
+RESOLUÇÃO:
+
+multiplicador = int(input("informe um numero multiplicador: ")
+  for x in range (0,11) :
+    resultado = x * multiplicador
+      print(f" {x} x {multplicador} = {resultado}")
