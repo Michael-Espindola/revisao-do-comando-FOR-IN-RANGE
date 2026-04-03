@@ -1,0 +1,13 @@
+5) O Contador de "A":
+
+Peça para o usuário digitar uma frase. Use o for para varrer a frase e, toda vez que a subvariável 
+encontrar a letra "a", ela deve somar 1 em um contador. No final, mostre o total.
+
+RESOLUÇÃO: 
+
+contador = 0
+frase = input ("informe uma frase: ")
+  for caractere in frase :
+    if caracteres.lower() == "a" :
+      contador = contador + 1
+print(f"{caractere} repetiu {contador} vezes")
