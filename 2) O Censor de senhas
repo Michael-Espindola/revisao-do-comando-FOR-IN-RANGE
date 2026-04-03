@@ -5,7 +5,5 @@ o programa deve imprimir um * (asterisco). No final, veremos o tamanho da senha 
 RESOLUÇÃO:
 
 senha = input ("digite uma senha: ")
-
     for caractere in senha :
-
         print("x"  , end = " ")
